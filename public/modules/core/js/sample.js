@@ -30,7 +30,7 @@ const app = new Extendable({
                 //pass parameters with request
             },
             //url, parameters, callback method
-            this.processHttpRequest(url, params, this.samplePostMethodAfter);
+            this.processApiRequest(url, params, this.samplePostMethodAfter);
         },
 
         samplePostMethodAfter : function(data){

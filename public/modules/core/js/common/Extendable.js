@@ -8,7 +8,7 @@ var Extendable = Vue.extend({
     methods: {
 
         //---------------------------------------------------------------------
-        processHttpRequest: function (url, params, callback, nprogress=true) {
+        processApiRequest: function (url, params, callback, nprogress=true) {
 
             if(nprogress)
             {
